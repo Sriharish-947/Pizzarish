@@ -26,7 +26,7 @@ menuArray.sort();
 htmldata = '<section class="cards">'
 for (i=0;i<menuArray.length;i++)
 {
-    htmldata= '<div class="cards">' + '<img src="images/pizzaimg.png"/>' + menuArray[i] + '</div>'
+    htmldata= '<div class="cards">' + '<img src="images/pizzaImg.png"/>' + menuArray[i] + '</div>'
 }
 htmldata=htmldata+"</section>"
 document.getElementById("display_addedMenu").innerHTML=htmldata;
