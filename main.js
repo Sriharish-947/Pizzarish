@@ -1,4 +1,4 @@
-menuArray = ["veggie pizza", "Normal Pizza", "Normal Chicken Pizza", "Mooshroom Pizza", "Pineapple Pizza", " Normal Pizza but with Pineapple toppings","yum-yum Pizza" ];
+menuArray = ["veggie pizza", "Normal Pizza", "Normal Chicken Pizza", "Mooshroom Pizza", "Pineapple Pizza", " Normal Pizza but with Pineapple toppings"];
 
  function getMenu()
  {
