@@ -1,4 +1,4 @@
-menuArray = ["veggie pizza", "Normal Pizza", "Normal Chicken Pizza", "Mooshroom Pizza", "Pineapple Pizza", " Normal Pizza but with Pineapple toppings"];
+menuArray = ["Veggie pizza", "Cheese Pizza", "Cheese Chicken Pizza", "Mushroom Pizza", "Pineapple Pizza", "Cookie Pizza"];
 
  function getMenu()
  {
@@ -20,7 +20,7 @@ menuArray = ["veggie pizza", "Normal Pizza", "Normal Chicken Pizza", "Mooshroom 
  function  add_item()
 {
 var htmldata
-var item=document.getElementById("add_item").value
+var item = document.getElementById("add_item").value
 menuArray.push(item);
 menuArray.sort();
 htmldata = '<section class="cards">'
